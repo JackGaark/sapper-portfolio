@@ -1,9 +1,14 @@
+@font-face {
+  font-family: OppositMedium;
+  src: url("/Opposit-Medium.otf") format("opentype")
+}
 body {
   margin: 0;
   font-family: Roboto, -apple-system, BlinkMacSystemFont, Segoe UI, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-size: 14px;
   line-height: 1.5;
-  color: #333;
+  color: rgb(242, 242, 242);
+  background-color: rgb(50, 50, 50);
 }
 
 h1, h2, h3, h4, h5, h6 {
