@@ -3,18 +3,22 @@
 </script>
 
 <style>
-  main {
+  /* main {
+    height: 100vh;
     position: relative;
-    max-width: 56em;
-    padding: 0em 2em 2em;
+    padding: 0;
     margin: 0 auto;
     box-sizing: border-box;
-  }
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    max-width: 100vw;
+  } */
   header {
-    position: relative;
-    max-width: 56em;
+    position: fixed;
+    width: 100vw;
+    height: 50px;
     padding: 1em 2em;
-    margin: 0 auto;
     box-sizing: border-box;
     display: flex;
     justify-content: space-between;
@@ -31,11 +35,8 @@
 
   <div class="logo">Superbonjour</div>
 
-  <nav>
-    <a href="/instagram">Instagram</a>
-  </nav>
-
+  <nav><a href="/instagram">Instagram</a></nav>
 </header>
 <main>
-  <slot></slot>
+  <slot />
 </main>
